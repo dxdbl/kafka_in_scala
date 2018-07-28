@@ -17,7 +17,7 @@
 
 ## 使用方法
 
-Markdown build之后生成jar包，上传到服务器，然后通过java命令执行
+build之后生成jar包，上传到服务器，然后通过java命令执行
 
     java -cp com.dxdbl.kafka.kafkaProducer idc24:9092 test test.txt
     
@@ -31,8 +31,10 @@ Markdown build之后生成jar包，上传到服务器，然后通过java命令�
 ## 使用截图
 
  - 执行jar包
+ 
 ![cmd-markdown-logo](https://wx1.sinaimg.cn/mw690/ad8d62d1gy1ftpygm32juj20y106stao.jpg)
  - 创建kafka消费者查看消费情况
+ 
 ![cmd-markdown-logo](https://wx4.sinaimg.cn/mw690/ad8d62d1gy1ftpygofkk7j217b0argqg.jpg)
 
 ## 需要添加的相关jar包
