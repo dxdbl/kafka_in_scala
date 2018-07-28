@@ -15,7 +15,6 @@ object kafkaProducer extends App {
   val topic = args(1).toString()
   val props = new Properties()
   props.put("bootstrap.servers", brokers)
-  props.put("client.id", "ScalaProducerExample")
   props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
   props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer")
 
