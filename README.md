@@ -1,2 +1,4 @@
 # kafka_in_scala
-kafka in scala
+**scala语言编写的相关kafka程序**
+-
+
