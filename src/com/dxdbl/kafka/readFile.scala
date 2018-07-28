@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 
 object readFile extends App {
+  println("hello world!")
 //  val file_name = args(0).toString()
 //  //读取文件
 //  var file = Source.fromFile(file_name)
